@@ -2,7 +2,7 @@
 
 As part of a Data Science course project at Toronto Metropolitan University, I explored machine learning performance, data parallelization and recommendation-driven social network connectivity. Using the **DSMP Social Network Simulator**, I conducted experiments, collected performance measurements, created visualizations and analyzed the results to better understand algorithm scalability and social network behaviour.
 
-## At a Glance
+## Project Overview
 
 | Area | Focus | Dataset | Tools |
 | :--- | :--- | :--- | :--- |
@@ -68,15 +68,15 @@ I used the simulator's **Doc2Vec** recommendation option with the provided `Reta
 
 The recorded network was sparse, with most nodes remaining isolated. The experiment illustrated how recommendation-driven connections can affect network structure and provided practical experience interpreting graph metrics.
 
+
 ## 3. Conclusion
 
-These experiments highlighted two complementary aspects of data science: **evaluating computational performance** and **interpreting network structure**.
+This project provided practical experience in machine learning benchmarking, data parallelization and social network analysis.
 
-In the parallelization experiment, adding processing nodes initially improved runtime, but the fastest configuration depended on the algorithm. K-Means performed best with two nodes, while SVM performed best with four. This reinforced that scalability should be evaluated with measurements rather than assuming more resources always lead to better performance. Communication and synchronization overhead are possible explanations for diminishing gains, although they were not measured separately.
+The benchmarking experiments demonstrated that increasing processing nodes does not always improve performance, with K-Means performing best at 2 nodes and SVM at 4 nodes. The social network experiment explored Doc2Vec-based recommendations and used Gephi to analyze network connectivity and structure.
 
-In the social network experiment, Doc2Vec-based recommendations provided a way to explore connections within a simulated network. Gephi helped quantify how sparse the resulting graph was through its node, edge and connected-component statistics.
+Overall, the project strengthened my understanding of algorithm scalability, performance evaluation, recommendation systems and data visualization.
 
-Together, the projects strengthened my experience with **ML benchmarking, data parallelization, performance visualization, recommendation systems and social network analysis**.
 
 ## Attribution
 
